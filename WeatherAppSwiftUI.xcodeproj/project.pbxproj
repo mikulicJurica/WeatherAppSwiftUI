@@ -11,6 +11,10 @@
 		289DA513285F30480062CC6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DA512285F30480062CC6F /* ContentView.swift */; };
 		289DA515285F304D0062CC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289DA514285F304D0062CC6F /* Assets.xcassets */; };
 		289DA518285F304D0062CC6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289DA517285F304D0062CC6F /* Preview Assets.xcassets */; };
+		289DA523285F35DE0062CC6F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DA522285F35DE0062CC6F /* MainView.swift */; };
+		289DA526285F41CF0062CC6F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DA525285F41CF0062CC6F /* WeatherModel.swift */; };
+		289DA52B285F42510062CC6F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DA52A285F42510062CC6F /* NetworkService.swift */; };
+		289DA52E285F50A00062CC6F /* WeatherIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DA52D285F50A00062CC6F /* WeatherIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		289DA512285F30480062CC6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		289DA514285F304D0062CC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		289DA517285F304D0062CC6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		289DA522285F35DE0062CC6F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		289DA525285F41CF0062CC6F /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		289DA52A285F42510062CC6F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		289DA52D285F50A00062CC6F /* WeatherIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIcons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,13 @@
 		289DA50F285F30480062CC6F /* WeatherAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				289DA510285F30480062CC6F /* WeatherAppSwiftUIApp.swift */,
-				289DA512285F30480062CC6F /* ContentView.swift */,
-				289DA514285F304D0062CC6F /* Assets.xcassets */,
+				289DA52C285F507D0062CC6F /* Style */,
+				289DA527285F42240062CC6F /* Network */,
+				289DA521285F35050062CC6F /* Views */,
+				289DA524285F41B70062CC6F /* Model */,
 				289DA516285F304D0062CC6F /* Preview Content */,
+				289DA514285F304D0062CC6F /* Assets.xcassets */,
+				289DA510285F30480062CC6F /* WeatherAppSwiftUIApp.swift */,
 			);
 			path = WeatherAppSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +76,39 @@
 				289DA517285F304D0062CC6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		289DA521285F35050062CC6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				289DA512285F30480062CC6F /* ContentView.swift */,
+				289DA522285F35DE0062CC6F /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		289DA524285F41B70062CC6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				289DA525285F41CF0062CC6F /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		289DA527285F42240062CC6F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				289DA52A285F42510062CC6F /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		289DA52C285F507D0062CC6F /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				289DA52D285F50A00062CC6F /* WeatherIcons.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +183,10 @@
 			files = (
 				289DA513285F30480062CC6F /* ContentView.swift in Sources */,
 				289DA511285F30480062CC6F /* WeatherAppSwiftUIApp.swift in Sources */,
+				289DA523285F35DE0062CC6F /* MainView.swift in Sources */,
+				289DA526285F41CF0062CC6F /* WeatherModel.swift in Sources */,
+				289DA52B285F42510062CC6F /* NetworkService.swift in Sources */,
+				289DA52E285F50A00062CC6F /* WeatherIcons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
